@@ -1,0 +1,234 @@
+@font-face {
+    font-family: SourceSansPro;
+    src: url(../fonts/SourceSansPro-Regular.ttf);
+}
+html, body, input, textarea {
+    font-family: SourceSansPro;
+    font-size: 18px;
+    color: #777;
+    margin: 0;
+}
+input:focus, textarea:focus {
+    border-color: #66afe9 !important;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(102,175,233,0.6);
+}
+a {
+    color: #777;
+    text-decoration: underline;
+}
+h1 {
+    margin: 30px 0;
+    border-bottom: 4px solid #ccc;
+    padding: 0 30px;
+}
+.text-center {
+    text-align: center !important;
+}
+.text-left {
+    text-align: left !important;
+}
+.logo-container {
+    text-align: center;
+    padding: 10px;
+}
+.logo-container img {
+    max-width: 100%;
+    max-height: 150px;
+}
+.nav-bar {
+
+}
+.nav-bar li {
+    display: inline-block;
+    text-align: center;
+    width: calc(100%/3);
+    float: left;
+    padding: 10px 0px;
+}
+.nav-bar a {
+    color: #fff;
+    text-decoration: none;
+}
+.red:hover {
+    background-color: #dd4b39;
+}
+.blue:hover {
+    background-color: #0266C8;
+}
+.yellow:hover {
+    background-color: #F2B50F;
+}
+.green:hover {
+    background-color: #00933B;
+}
+.main-content {
+    /*padding: 10px;*/
+}
+.dark-grey-bg {
+    background-color: #777777;
+}
+.red-bg {
+     background-color: #dd4b39;
+}
+.blue-bg {
+    background-color: #0266C8;
+}
+.yellow-bg {
+    background-color: #F2B50F;
+}
+.green-bg {
+    background-color: #00933B;
+}
+.section1 {
+    background-color: #fff;
+    padding: 30px 10px;
+}
+.section1 li {
+    display: inline-block;
+    text-align: center;
+    width: calc(100%/6);
+    float: left;
+    padding: 10px 0px;
+}
+.section2 {
+    background-color: #eee;
+    padding: 30px 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.contact-box input[type=text] {
+    width: 50%;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #777;
+    margin-bottom: 20px;
+}
+.contact-box textarea {
+    width: 50%;
+    height: 10vw;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #777;
+    margin-bottom: 20px;
+}
+.contact-box input[type=submit] {
+    width: 25%;
+    padding: 15px;
+    border: 1px solid #dd4b39;
+    border-radius: 5px;
+    background-color: #dd4b39;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+.footer {
+    border-top: 8px solid #0266C8;
+    background-color: #777777;
+    color: #eeeeee;
+    padding: 50px 0px;
+}
+.footer i {
+    margin: 5px;
+}
+.footer a {
+    color: #eeeeee;
+}
+.col-2 {
+    width: 50%;
+    float: left;
+    text-align: justify;
+}
+.col-2 img {
+    max-width: 100%;
+    max-height: 158px;
+}
+.col-2 h2 {
+    margin: 0;
+}
+.col-2-r {
+    width: 50%;
+    float: right;
+    text-align: justify;
+}
+.col-2-r img {
+    max-width: 100%;
+    max-height: 158px;
+}
+.col-2-r h2 {
+    margin: 0;
+}
+.col-3 {
+    width: calc(100%/3 - 20px);
+    min-height: 25vh;
+    float: left;
+    padding: 10px;
+}
+.col-4 {
+    width: calc(25% - 20px);
+    min-height: 25vw;
+    float: left;
+    padding: 10px;
+}
+
+.pad-left {
+    padding-left: 10px;
+}
+.pad-left-img img {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 1150px) {
+    .col-2 {
+        display: block;
+        float: none;
+        margin: 10px auto;
+    }
+    .col-2-r {
+        display: block;
+        float: none;
+        margin: 10px auto;
+    }
+    .pad-left {
+        padding-left: 0px;
+    }
+    .pad-left-img img {
+        padding-left: 0px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .section1 li {
+        width: calc(100%/3);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .contact-box input[type=text] {
+        width: 75%;
+    }
+    .contact-box textarea {
+        width: 75%;
+    }
+    .contact-box input[type=submit] {
+        width: calc(75% + 20px);
+    }
+    .col-2 {
+        width: 75%;
+    }
+    .col-2-r {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .col-2 {
+        width: 100%;
+    }
+    .col-2-r {
+        width: 100%;
+    }
+}
