@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b6ce2661-39b4-4458-b9ed-49d35061f1bf" name="camerondrennan.com" url="http://camerondrennan.com">
+        <fileTransfer host="camerondrennan.com" port="21" password="dff9dfdedfd8dfcbdfdedfc2dfc9dfc6dfd3dfcedfcfdf9b" username="camerondrennan">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
